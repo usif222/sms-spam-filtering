@@ -1,8 +1,11 @@
 # SMS Spam Filtering Project
 
-This project uses **TF-IDF, Random Forest, and SMOTE** to classify SMS messages as spam or ham.
+This project implements a spam message classifier using Natural Language Processing (NLP) and Machine Learning. It processes text messages, extracts features, and classifies them as spam or ham using machine learning models.
 
 ## Features
-- **Preprocessing**: Tokenization, Stopword Removal, Lemmatization
-- **Feature Engineering**: Message Length, Punctuation Count, Capitalization, Spam Words
-- **Modeling**: Random Forest & Logistic Regression
+- Text Preprocessing (Tokenization, Stopword Removal, Lemmatization)
+- Feature Engineering (TF-IDF, Message Length, Capital Ratio, etc.)
+- Model Training (Random Forest, Logistic Regression)
+- Handling Class Imbalance using SMOTE
+- Model Evaluation and Analysis
+
